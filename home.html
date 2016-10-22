@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome TO Asme</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" media= "screen">
+<style>
+.sidelinks{
+	height:35px;
+	padding-top:5px;	
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+	
+	border-bottom:1px solid  #ccc;
+	cursor:pointer;
+}
+.sidelinks:hover{
+	
+	transition-delay:100;
+	transition-duration:2;
+	background-color:#eee;
+	color:#666;
+	box-shadow: 0px 0px 7px rgb(204, 204, 204) inset;
+}
+.white
+{
+	background-color:#FFF;
+	
+	
+}
+	   .sticky-header-control
+  {
+  border-right: 1px solid rgb(196, 205, 224);
+    border-color: -moz-use-text-color rgb(196, 205, 224) rgb(196, 205, 224);
+    height: 45px;
+	padding:5px;
+    border-width: 0px 1px 1px;
+    border-style: none solid solid;
+    background-color: rgb(255, 255, 255);
+   
+    border-radius: 0px 0px 2px 2px;  
+  }
+  h1{
+margin-left:7px;
+font-family:Georgia, "Times New Roman", Times, serif;
+color: #666666;
+text-shadow: 5px 5px 5px #999999;
+}
+	  
+</style>
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+  <script type="application/javascript">
+		$(document).ready(function()
+{
+$(".sidelinks").click(function(){
+	var updateId=this.id;
+	$("#update").html('');
+$("#update").load(updateId +".html");
+
+});
+});
+	</script>
+</head>
+
+<body class="white">
+<div class="container">
+<div class="row">
+<div class="span12 navbar-fixed-top white sticky-header-control"><a href="#" class="btn offset3">Journals</a>
+<a href="#" class="btn" style="margin-left:5px;">Journals</a><a href="#" class="btn" style="margin-left:5px;">Journals</a><a href="#" class="btn" style="margin-left:5px;">Journals</a>
+<a href="#" class="btn">Journals</a>
+</div>
+</div>
+</div>
+<div class="contaner-fluid">
+
+<div class="row-fluid">
+ <div class="span3 white-panel" style="min-height:700px;">
+ <div class="spacer" style=" height:40px; text-align:center; border-bottom:1px solid #CCC;"><h2>More Links</h2></div>
+ <div class="row-fluid sidelinks" id="books"><a href="#">Books</a></div>
+ <div class="row-fluid sidelinks" id="journal"><a href="#">Journals</a></div>
+  <div class="row-fluid sidelinks" id="news"><a href="#">News & Articles</a></div>
+   <div class="row-fluid sidelinks" id="standard"><a href="#">Standards</a></div>
+    <div class="row-fluid sidelinks" id="Proceeding"><a href="#">Proceedings</a></div>
+       </div>
+<div class="span9" id="update">
+<div class="span9 white-panel" style="padding:20px;">
+<h1> The man who want to fall</h1>
+<div class="span5 white-panel" style="border:#CCC 1px solid; padding:3px;">
+<img src="assets./images/home-man.jpg" width="460" height="300" /></div><div class="span4">Debbie Sterling has made an engineering toy for girls. Rather than just re-marketing a typical construction set, she’s incorporated what she’s found girls are naturally good at.Positioning drilling and other support vessels in ice-covered waters is much more challenging than in open seas. You must have an ice-breaking strategy for various scenarios.Engineering students from across the globe competed in the 2012 ASME Student Design Competition held in conjunction with the Society's 2012 Congress.</div>
+</div>
+
+<div class="span9 white-panel" style="padding:20px; margin-left:0px;">
+<h1> The man who want to fall</h1>
+<div class="span5 white-panel" style="border:#CCC 1px solid; padding:3px;">
+<img src="assets./images/home-man.jpg" width="460" height="300" /></div><div class="span4">Debbie Sterling has made an engineering toy for girls. Rather than just re-marketing a typical construction set, she’s incorporated what she’s found girls are naturally good at.Positioning drilling and other support vessels in ice-covered waters is much more challenging than in open seas. You must have an ice-breaking strategy for various scenarios.Engineering students from across the globe competed in the 2012 ASME Student Design Competition held in conjunction with the Society's 2012 Congress.</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
